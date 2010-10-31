@@ -1,0 +1,33 @@
+[Project]
+Version=2
+Description=Register shell commands for filetype
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=1
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=4
+1=RGUI (debug),fbc -d GRAPH_MODE -g -s gui -i X:\Workspace\FreeBasic\[Modules] -i X:\Workspace\FreeBasic\[Classes]
+2=RGUI,fbc -d GRAPH_MODE -s gui -i X:\Workspace\FreeBasic\[Modules] -i X:\Workspace\FreeBasic\[Classes]
+3=RConsole (debug),fbc -g -s console -i X:\Workspace\FreeBasic\[Modules] -i X:\Workspace\FreeBasic\[Classes]
+4=RConsole,fbc -s console -i X:\Workspace\FreeBasic\[Modules] -i X:\Workspace\FreeBasic\[Classes]
+Output=ShellReg.exe
+Run=
+[File]
+1=ShellReg.bas
+1001=..\[Modules]\Register.bas
+1002=..\[Modules]\String.bas
+2=..\[Modules]\String.bi
+3=..\[Modules]\Register.bi
+4=ShellReg.bi
+[FileInfo]
+1001=0,29,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1=0,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1002=0,22,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,17,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,8,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

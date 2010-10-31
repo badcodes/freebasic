@@ -1,0 +1,32 @@
+#define IDD_DIALOG 1000
+#define IDC_STC1 1001
+#define txtProg 1002
+#define btnBrowseProg 1003
+#define IDC_STC2 1004
+#define btnBrowseWork 1005
+#define txtWork 1006
+#define txtDefault 1008
+#define IDC_STC3 1009
+#define txtAdditional 1007
+#define IDC_STC4 1010
+#define btnGo 1011
+
+IDD_DIALOG DIALOGEX 6,5,321,153
+CAPTION "Program Loader"
+FONT 8,"MS Sans Serif",0,0,0
+CLASS "DLGCLASS"
+STYLE 0x10CF0000
+BEGIN
+  CONTROL "Program location:",IDC_STC1,"Static",0x50000000,2,3,316,9
+  CONTROL "",txtProg,"Edit",0x50010000,2,14,252,15,0x00000200
+  CONTROL "Browse...",btnBrowseProg,"Button",0x50010000,262,14,54,15
+  CONTROL "Working directory:",IDC_STC2,"Static",0x50000000,2,35,316,9
+  CONTROL "Browse...",btnBrowseWork,"Button",0x50010000,262,46,54,15
+  CONTROL "",txtWork,"Edit",0x50010000,2,46,252,15,0x00000200
+  CONTROL "",txtDefault,"Edit",0x50010000,2,77,314,15,0x00000200
+  CONTROL "Default arguments:",IDC_STC3,"Static",0x50000000,2,66,316,9
+  CONTROL "",txtAdditional,"Edit",0x50010000,2,108,314,15,0x00000200
+  CONTROL "Additional arguments:",IDC_STC4,"Static",0x50000000,2,97,316,9
+  CONTROL "Go!",btnGo,"Button",0x50010000,262,131,54,15
+END
+

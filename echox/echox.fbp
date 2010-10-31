@@ -1,0 +1,28 @@
+[Project]
+Version=3
+Description=echo with extension
+Api=fb (FreeBASIC)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=1
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=2
+1=Windows Console (debug),fbc -g -s console
+2=Windows Console,fbc -s console
+Output=
+Run=-e abcdefghi \t abcdefd \n fdslkfd \e afdsd
+Delete=
+[TabOrder]
+TabOrder=1
+[File]
+1=echox.bas
+[BreakPoint]
+1=
+[FileInfo]
+1=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,14 @@
+[Project]
+Version=2
+Description=Cat
+Api=fb (FreeBASIC)
+[Make]
+Current=1
+1=Cross Dos,fbc -target dos -i X:\Workspace\FreeBasic\[Modules] -i X:\Workspace\FreeBasic\[Classes]
+Recompile=2
+Module=Module Build,fbc -c
+[File]
+1=cat.bas
+Main=1
+[FileInfo]
+1=0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

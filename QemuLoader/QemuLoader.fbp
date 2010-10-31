@@ -1,0 +1,24 @@
+[Project]
+Version=2
+Description=QemuLoader
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+ResExport=
+[Make]
+Current=1
+1=Windows GUI,fbc -s gui
+Recompile=2
+Module=Module Build,fbc -c
+Output=
+Run=
+[File]
+1=QemuLoader.bas
+2=QemuLoader.rc
+3=QemuLoader.bi
+[ReallyRad]
+IDD_DIALOG=,,BrowseProg_Click
+[FileInfo]
+3=0,20,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1=0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

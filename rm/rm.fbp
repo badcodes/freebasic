@@ -1,0 +1,13 @@
+[Project]
+Version=2
+Description=pass arguments to del
+Api=fb (FreeBASIC)
+[Make]
+Current=1
+1=Windows Console,fbc -s console
+Recompile=2
+Module=Module Build,fbc -c
+[File]
+1=rm.bas
+[FileInfo]
+1=0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

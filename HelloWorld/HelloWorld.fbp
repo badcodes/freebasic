@@ -1,0 +1,17 @@
+[Project]
+Version=2
+Api=fb (FreeBASIC),win (Windows)
+Description=Hello World
+[Make]
+Module=Module Build,fbc -c
+Recompile=0
+Current=1
+1=Windows Console,fbc -s console
+Output=
+Run=
+[File]
+1=HelloWorld.bas
+1001=func.bas
+[FileInfo]
+1=0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1001=0,15,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
