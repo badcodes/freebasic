@@ -3,9 +3,10 @@ FreeBasic
 
 * project host
 
-** https://zfreebasic.googlecode.com/svn/trunk
+1. https://zfreebasic.googlecode.com/svn/trunk
 
-** git@github.com:eotect/freebasic.git
-** git@gitorious.org:eotect/freebasic.git
+2. git@github.com:eotect/freebasic.git
+
+3. git@gitorious.org:eotect/freebasic.git
 
 
